@@ -22,7 +22,7 @@ let  new_users: string[] = ["shah","saad","srk","Usman","nadeem"]
 console.log(`==================================================================================================================`);
 
 
-  for (let i = 0; i < current_users.length; i++) {
+  for (let i = 0; i < new_users.length; i++) {
     if(current_users[i].toLowerCase()=== new_users[i].toLowerCase()){
       console.log(`${new_users[i]} will need to enter a new username `)
 
