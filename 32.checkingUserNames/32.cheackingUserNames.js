@@ -12,3 +12,12 @@ new_users.forEach(user => {
         console.log(`${user} this user name is avaiable`);
     }
 });
+console.log(`==================================================================================================================`);
+for (let i = 0; i < current_users.length; i++) {
+    if (current_users[i].toLowerCase() === new_users[i].toLowerCase()) {
+        console.log(`${new_users[i]} will need to enter a new username `);
+    }
+    else {
+        console.log(`${new_users[i]} this user name is avaiable`);
+    }
+}
